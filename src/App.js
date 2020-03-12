@@ -5,9 +5,12 @@ function App() {
   return (
     <div className="App">
         <div className="wrapper">
-          <span>
-            YES
-          </span>
+        <div>
+          <span>Probably?</span>
+        </div>
+          <div className="subTitle">
+            I don't know, Ask your doctor <span role="img" aria-label="">🤷</span>
+          </div>
         </div>
     </div>
   );
